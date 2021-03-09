@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"> </script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="calc">
+        <form action="#" name="form">
+            <div class="result">
+                <input type="text" name="display" id="display" value="">
+            </div><!--result-->
+
+            <div class="buttons">
+                <div class="row">
+                    <input type="button" value="7" name="7" onclick="setValue(7)">
+                    <input type="button" value="8" name="8" onclick="setValue(8)">
+                    <input type="button" value="9" name="9" onclick="setValue(9)">
+                    <input type="button" value="+" name="add" onclick="setValue(add.value)">
+                </div><!--row-->
+                <div class="row">
+                    <input type="button" value="4" name="4" onclick="setValue(4)">
+                    <input type="button" value="5" name="5" onclick="setValue(5)">
+                    <input type="button" value="6" name="6" onclick="setValue(6)">
+                    <input type="button" value="*" name="multi" onclick="setValue(multi.value)">
+                </div><!--row-->
+                <div class="row">
+                    <input type="button" value="1" name="1" onclick="setValue(1)">
+                    <input type="button" value="2" name="2" onclick="setValue(2)">
+                    <input type="button" value="3" name="3" onclick="setValue(3)">
+                    <input type="button" value="-" name="mini" onclick="setValue(mini.value)">
+                </div><!--row-->
+                <div class="row">
+                    <input type="button" value="0" name="0" onclick="setValue(0)">
+                    <input type="button" value="." name="dot" onclick="setValue(dot.value)">
+                    <input type="button" value="/" name="divide" onclick="setValue(divide.value)">
+                    <input type="button" value="=" name="equals" onclick="calc()">
+                </div><!--row-->
+            </div><!--buttons-->
+        </form>
+    </div><!--calc-->
+    <script src="app.js"></script>
+</body>
+</html>
