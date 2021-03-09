@@ -17,6 +17,9 @@
 
             <div class="buttons">
                 <div class="row">
+                    <input type="button" value="C" name="clean" onclick="cleanAll()">
+                </div><!--row-->
+                <div class="row">
                     <input type="button" value="7" name="7" onclick="setValue(7)">
                     <input type="button" value="8" name="8" onclick="setValue(8)">
                     <input type="button" value="9" name="9" onclick="setValue(9)">
@@ -37,8 +40,8 @@
                 <div class="row">
                     <input type="button" value="0" name="0" onclick="setValue(0)">
                     <input type="button" value="." name="dot" onclick="setValue(dot.value)">
-                    <input type="button" value="/" name="divide" onclick="setValue(divide.value)">
                     <input type="button" value="=" name="equals" onclick="calc()">
+                    <input type="button" value="/" name="divide" onclick="setValue(divide.value)">
                 </div><!--row-->
             </div><!--buttons-->
         </form>

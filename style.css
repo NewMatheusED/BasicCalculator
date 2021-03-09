@@ -17,7 +17,7 @@ body {
 }
 
 .calc {
-    width: 330px;
+    width: 340px;
     background-color: #131419;
     padding: 40px 30px;
     border-radius: 10px;
@@ -62,4 +62,13 @@ body {
     background-color: #131419;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5), 
     -3px -3px 7px rgba(255, 255, 255, 0.05);
+}
+
+.row:nth-child(1) {
+    text-align: right;
+    padding: 0 9px 0 0;
+}
+
+.buttons input[name=clean] {
+    width: 120px;
 }

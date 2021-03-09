@@ -18,6 +18,6 @@
         }
     }
     
-    $('input[name=equals]').dblclick(function(){
+    function cleanAll(){
         form.display.value = ''
-    })
+    }
