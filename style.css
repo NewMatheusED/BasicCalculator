@@ -27,6 +27,7 @@ body {
 }
 
 .result input[type=text] {
+    caret-color: #131419;
     background: none;
     width: 100%;
     height: 60px;
@@ -43,6 +44,15 @@ body {
 
 .result input[type=text]:focus {
     outline: none; 
+}
+
+.result .delete {
+    position: relative;
+    top: 40px;
+    left: 10px;
+    color: white;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .buttons {
