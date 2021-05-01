@@ -23,6 +23,21 @@
     }
 
     function Delete() {
-        form.display.value = form.display.value.substr(0, form.display.value.length - 1)
-        
+        form.display.value = form.display.value.substr(0, form.display.value.length - 1) 
     }
+
+    $('.darkButton').click(function() {
+        $('body').toggleClass('light')
+
+        if($('body').hasClass('light')) {
+            $('.darkButton span').css({
+                'left': '100%', 
+                'transform': 'translateX(-100%)'
+            })
+        }else{
+            $('.darkButton span').css({
+                'left': '0', 
+                'transform': 'translateX(0)'
+        })
+        }  
+    })
